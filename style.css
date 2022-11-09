@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}/*Poner el body con lo basico*/
+
+.container{
+    background-color: #333; /*Color del fondo*/
+    padding: 1rem; /*Tamaño del relleno*/
+    margin-top: 1rem; /*Tamaño del margen*/
+}
+.draggable {
+    padding: 1rem; /*Tamaño del relleno*/
+    background-color: white; /*Color del fondo*/
+    border: 1px solid black;/*Los bordes de color negro solido*/
+    cursor: move; /*Cursor tipo movimiento*/
+}
+
+.draggable.dragging {
+    opacity: .5; /*Cada vez que toque uno de los cuadro se pone opaco*/
+}
